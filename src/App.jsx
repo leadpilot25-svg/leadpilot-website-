@@ -30,7 +30,7 @@ function waLink(message='Hello LeadPilot, I would like to know more about your l
 }
 
 function Logo() {
-  return <Link to="/" className="brand" aria-label="LeadPilot home"><img src="/images/leadpilot-wordmark.png" alt="LeadPilot" style={{width:'145px',height:'auto',display:'block'}} /></Link>;
+  return <Link to="/" className="brand" aria-label="LeadPilot home"><img src="/images/leadpilot-full-logo.png" alt="LeadPilot logo" style={{width:'78px',height:'78px',objectFit:'contain',display:'block'}} /></Link>;
 }
 
 function Header() {
